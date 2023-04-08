@@ -2,6 +2,8 @@
 
 ## FULL PAGE SCROLL
 
-1. Install
+## Install
 
-## npm install --save @ap.cx/react-fullpage
+---
+
+- npm install --save @ap.cx/react-fullpage
