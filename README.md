@@ -20,10 +20,11 @@ return (
 <Fullpage>
 <FullpageNavigation />
 <FullPageSections>
-<FullpageSection style={{ height: "100vh" }}> \_<Page 1 />
+<FullpageSection style={{ height: "100vh" }}> \<Page 1 />
 </FullpageSection>
 <FullpageSection style={{ height: "100vh" }}>
-<Page 2 /> \*</FullpageSection>
+<Page 2 />
+</FullpageSection>
 <FullpageSection style={{ height: "100vh" }}>
 <Page 3/>
 </FullpageSection>
