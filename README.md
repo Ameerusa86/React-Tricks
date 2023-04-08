@@ -35,6 +35,7 @@ export default FullPageScroll;
 ```
 
 ## Random Number Counter
+# Component to run a counter and stop at a random number
 ```
 import React, { useEffect, useState } from "react";
 
