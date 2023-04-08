@@ -13,13 +13,19 @@
 
 ## Usage
 
-$ const FullPageScroll = () => { $ return ( $ <Fullpage>
-$<FullpageNavigation />
-$<FullPageSections> $ <FullpageSection
-style={{ height: "100vh" }}> $ <Page 1 />
-$</FullpageSection> $ <FullpageSection style={{ height: "100vh" }}> $ <Page 2 />
-$
-</FullpageSection> $ <FullpageSection style={{ height: "100vh" }}> $ <Page 3/>
-$</FullpageSection> $ </FullPageSections> $ </Fullpage> )};
+- const FullPageScroll = () => {
+  - return (
+    - <Fullpage>
+      *<FullpageNavigation />
+        *<FullPageSections>
+    * <FullpageSection style={{ height: "100vh" }}> \_<Page 1 />
+      - </FullpageSection>
+    * <FullpageSection style={{ height: "100vh" }}>
+    * <Page 2 /> \*</FullpageSection>
+    * <FullpageSection style={{ height: "100vh" }}>
+      - <Page 3/>
+      - </FullpageSection>
+    * </FullPageSections>
+    * </Fullpage> ); };
 
 export default FullPageScroll;
