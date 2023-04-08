@@ -34,7 +34,8 @@ return (
 export default FullPageScroll;
 ```
 
-```Random Number Counter
+```
+## Random Number Counter
 import React, { useEffect, useState } from "react";
 
 const Counter = (props) => {
